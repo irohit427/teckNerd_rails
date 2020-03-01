@@ -1,10 +1,10 @@
 <p id="notice"><%= notice %></p>
 <%= stylesheet_link_tag 'index' %>
-<div class="container" style="margin-top: 5%;">
+<div class="container" style="margin-top: 5%; margin-bottom: 15%;">
   <h1 style="margin-bottom: 50px;">Blogs</h1>
-  <% @articles.each do |article| %>
   <div class="row">
-    <div class="col" id="cardBox">
+    <% @articles.each do |article| %>
+    <div class="col-sm-3" id="cardBox" style="margin-right: 1%; margin-bottom: 2%;">
       <div class="card">
         <%= image_tag article.poster.url(:medium), class: "card-img-top" %>
         <div class="card-body">
@@ -29,9 +29,8 @@
         <% end %>
       </div>
     </div>
-    <br>
-  </div>
   <% end %>
+  </div>
   <% if user_signed_in? %>
   <div id="newArticle">
     <%= link_to '<button class="btn btn-primary" type="button">New Article</button>'.html_safe, new_article_path %>
