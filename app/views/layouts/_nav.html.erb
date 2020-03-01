@@ -1,0 +1,23 @@
+<nav class="navbar navbar-fixed-top navbar-default" role="navigation">
+  
+    <div class="navbar-header">
+      <a href="/" class="navbar-brand">
+        <%= image_tag "logo.png", style: "display: block;  width : 40px; height : 40px; margin-top: -20%;" %>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapsable">
+      <ul class="nav navbar-nav foo" id="menu">
+        <li><a href="/articles">Home</a></li>
+        <li><a href="/about-us">About Us</a></li>
+        <li>
+          <a href="/contact">
+            <span class='glyphicon glyphicon-hand-right'></span>
+            Contact Us!
+          </a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right" align="right" style="padding-right: 100px;">
+        <li><a href="/users/sign_out">Log Out</a></li>
+      </ul>
+    </div>
+</nav>
