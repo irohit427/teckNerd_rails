@@ -12,4 +12,8 @@ Gems used:
 
 * Active Text
 
-![Alt text](https://drive.google.com/open?id=1YwLXPiutMTm7r_ju6llpR8s4xts4TtF3, "TeckNerd")
+<img src="https://github.com/irohit427/teckNerd_rails/blob/master/screenshot/index.png" width="300" height="250"> <img src="https://github.com/irohit427/teckNerd_rails/blob/master/screenshot/new.png" width="300" height="250">
+<img src="https://github.com/irohit427/teckNerd_rails/blob/master/screenshot/login.png" width="300" height="250"> <img src="https://github.com/irohit427/teckNerd_rails/blob/master/screenshot/view.png" width="300" height="250">
+
+
+
